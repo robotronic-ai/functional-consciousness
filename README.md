@@ -2,10 +2,14 @@
 
 This is a reviewer-facing, English-only repackaging of the project's research campaigns. It
 supersedes the six-folder layout previously on the public repository (folders 01–06 below are
-carried over unchanged in substance, only re-audited for this edition) and adds six campaigns
-completed since: the Λ addressing-sufficiency theory and its empirical test (08–09), a
-scaling/certification line for Γ (07), and three independently-authored protocol extensions
-(10–12).
+carried over unchanged in substance, only re-audited for this edition) and adds seven campaigns
+completed or drafted since: the Λ addressing-sufficiency theory and its empirical test (08–09), a
+scaling/certification line for Γ (07), three independently-authored protocol extensions (10–12),
+and the strictly-behavioral access-capability specification A†-SPEC (13).
+
+**Update note (differential).** This revision adds only folder `13-a-dagger-spec-behavioral-protocol/`
+and this README entry for it. Folders 01–12 are unchanged from the previous edition of this
+archive and are not re-described below beyond their existing index rows.
 
 Each numbered folder is a **clean edition**, not a literal translation of the frozen internal
 record. Frozen, hashed protocol files are never retyped — translating a hashed document would
@@ -60,19 +64,22 @@ archive.
 | 10 | `10-continuous-predictive-geometry` | Predictive-state theory, continuous extension | Pure math + exact finite/closed-form verification only. **Not yet applied to any trained model.** |
 | 11 | `11-rmt-prospective-physical-cut` | §17.6-adjacent prospective validation | Protocol and analysis engine complete and self-tested; **`NOT_EXECUTED_REAL_MODEL`** — no result yet from the manuscript's actual target model. |
 | 12 | `12-readout-relative-minimal-predictive` | Predictive realization theory | Theoretical derivation + exhaustive finite verification (13,538 cases, 0 failures). Stochastic/continuous extensions explicitly `OPEN`. No trained model involved. |
+| 13 | `13-a-dagger-spec-behavioral-protocol` | Independent instrument for a future H_org bridge test | Frozen, hashed, **`NOT SEALED`** spec (v0.24, 11 behavioral clauses). By design never references Γ/Δ/R/Λ/B/T/U/Addr, so it can eventually decircularize the organizational-necessity bridge test. **Never run against any system.** Its only adjudication instrument (the W1–W6 grid) is stale — built for an older 5-clause v0.11 draft, itself never adjudicated, and covers none of the 6 clauses added since. |
 
 ## Reading this archive honestly
 
 Three campaigns in this edition (10, 11, and the target-transformer sub-bundle of 07) are
-**designs and tooling that have not yet been run against a real trained model**, and one
-empirical campaign (09) ran fully but returned a **negative screening result**, not a
-confirmation. This is stated plainly inside each folder and repeated here because it matters for
-how the whole archive should be read by a skeptical reviewer: this is not a claim that every
-listed campaign is a finished, executed result. Folders 01–06, 08, and most of 07 and 12 are
-closed, executed, and verified (several via candidate-fixed holdout). Folders 10 and 11, and the
-target-transformer half of 07, are validated instruments and preregistered protocols waiting on
-a real-model run — the honest state of the project's current scaling and physical-cut work, not
-a gap being concealed.
+**designs and tooling that have not yet been run against a real trained model**, one empirical
+campaign (09) ran fully but returned a **negative screening result**, not a confirmation, and
+one specification (13) is frozen text with **no adjudication and no executed instance at all**.
+This is stated plainly inside each folder and repeated here because it matters for how the whole
+archive should be read by a skeptical reviewer: this is not a claim that every listed campaign is
+a finished, executed result. Folders 01–06, 08, and most of 07 and 12 are closed, executed, and
+verified (several via candidate-fixed holdout). Folders 10 and 11, and the target-transformer half
+of 07, are validated instruments and preregistered protocols waiting on a real-model run. Folder
+13 is one level earlier still: a well-formedness self-check (W1–W6) has been designed but never
+completed even once, against any version of the spec. None of this is a gap being concealed — it
+is the honest, current state of each work stream.
 
 ## Suggested reading order
 
@@ -81,3 +88,4 @@ a gap being concealed.
 3. `08-lambda-addressing-theory` then `09-lambda-addressing-empirical` — the Λ addressing-sufficiency theory and its (negative) empirical screen.
 4. `01`–`03` and `06` — the supporting factorization, gauge-transport, boundary-closure and transformer-measurement results.
 5. `10`–`12` — the three protocol extensions, all instrument-complete, not yet run on a real model.
+6. `13-a-dagger-spec-behavioral-protocol` — the future non-circular access instrument: frozen text only, not yet adjudicated or run.

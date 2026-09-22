@@ -1,0 +1,76 @@
+{
+  "campaign": "A†-SPEC behavioral-access protocol",
+  "campaign_type": "specification_and_adjudication_instrument, not an executed campaign",
+  "manuscript_relation": {
+    "decircularizes": "H_org / organizational-necessity bridge test (H_{N,I}, H_CO^+, SPEC §9)",
+    "how": "A†-SPEC's clause text is mechanically checked (SPEC §1, X1/X2) to never reference Γ, Δ, R, Λ, B, T, U, Addr, integration, irreducibility, recurrence, or multi-role propagation, so it can later serve as an access-behavior instrument independent of the manuscript's own organizational axes.",
+    "empirical_claim": false
+  },
+  "spec": {
+    "file": "A_DAGGER_SPEC_v0.24_DRAFT.md",
+    "version": "v0.24",
+    "draft_status": "DRAFT",
+    "spec_status": "NOT_SEALED",
+    "spec_status_note": "The source document's own header states 'Status: NOT SEALED.' It has been frozen and hashed as a text, but has not cleared its own §12 sealing procedure and has never been run as a campaign against any system.",
+    "source_sha256_of_uploaded_file": "73be6900cfb753f670fbb6125e6fd4a494f22c5ef17376af7ee8ef2328b5ec12",
+    "clause_count": 11,
+    "clauses": [
+      "DELAYED-USE", "SUBST", "INTERFERENCE", "POSTCUE-MULTI-USE", "CONTROL",
+      "TEMPORAL-AUTONOMY", "ELAPSED-TIME-CONTROL", "HARD-ERASURE",
+      "SELECTIVE-ERASURE", "SOURCE-BINDING", "CAUSAL-OWNERSHIP"
+    ],
+    "core_ladder": ["A†_0", "A†_1", "A†_2"],
+    "certificates": ["Cert_T", "Cert_E", "Cert_B", "Cert_A"],
+    "campaigns_run_against_any_system": 0,
+    "instances_declared": 0,
+    "canonical_reference_instance_A_DAGGER_REF1_exists": false,
+    "blocking_conditions_before_v1_0": [
+      "coverage-validation of the bootstrap procedure, unmet by either the analytic or empirical route for any primitive (SPEC §5.2, §14.0)",
+      "J / Ĵ, HARD-ERASURE's held-out predictive-advantage estimator, estimand fixed but estimator not yet characterized (SPEC §3, §14.0)",
+      "normative reference implementation (D̂_2, Ĵ, IUT verdict rule, interval procedures) not yet published and hashed (SPEC §14.0)",
+      "two-phase W1-W6 adjudication over all eleven clauses, and of the conformance suite, not yet performed (SPEC §12)",
+      "written answers to clause-specific checks Y1-Y19 not yet produced (SPEC §12.1)",
+      "a blind adversarial pilot of all eleven clauses, not yet run (SPEC §14.0, condition 5)"
+    ]
+  },
+  "grid": {
+    "file": "A_DAGGER_W1_W6_VERIFICATION_GRID_v0.4.md",
+    "grid_version": "v0.4",
+    "grid_status": "NOT_RUN",
+    "grid_status_note": "The source document's own status line reads 'TO BE ADJUDICATED. Not yet run.' Every verdict cell (5 clauses x 6 criteria = 30 cells) plus all 7 cross-cutting checks and the closing adjudication-record table are blank.",
+    "source_sha256_of_uploaded_file": "f519daf00e0533d2bc500e5c9a2bcaa7b49dfa09dba154be26d4ad359bd7055c",
+    "grid_target_spec_version": "v0.11",
+    "grid_target_spec_file": "A_DAGGER_SPEC_v0.11_DRAFT.md",
+    "grid_target_spec_hash_as_recorded_in_grid": "e92a1005… (truncated in source; full value not recorded elsewhere in this archive)",
+    "version_mismatch": {
+      "present": true,
+      "description": "The grid targets SPEC v0.11 (5 clauses: DELAYED-USE, SUBST, INTERFERENCE, POSTCUE-MULTI-USE, CONTROL). This archive's frozen SPEC is v0.24 (11 clauses). The 6 clauses added since v0.11 (TEMPORAL-AUTONOMY, ELAPSED-TIME-CONTROL, HARD-ERASURE, SELECTIVE-ERASURE, SOURCE-BINDING, CAUSAL-OWNERSHIP) have no rows in the grid at all. Even a complete run of the existing grid against v0.11 would not constitute adjudication of v0.24."
+    },
+    "cells_total": 30,
+    "cells_filled": 0,
+    "cross_cutting_checks_total": 7,
+    "cross_cutting_checks_filled": 0,
+    "adjudicator_assigned": false,
+    "adjudicator_admissibility_rule": "SPEC §1: the drafter of the clauses is not an admissible adjudicator; the check is 'entrusted to no author's judgement'."
+  },
+  "issue_history_summary": {
+    "issues_recorded": 3,
+    "issues": [
+      {"id": "I-1", "topic": "SUBST admitted two incompatible readings (presentation-level vs internal-state)", "resolved_in_spec_version": "v0.9"},
+      {"id": "I-2", "topic": "SUBST's null statistic had the wrong polarity relative to the normalization formula", "resolved_in_spec_version": "v0.10"},
+      {"id": "I-3", "topic": "the null statistic's definition and the invalid-instance ceiling's meaning were stated in terms that did not fit SUBST; the grid's own X7 check inherited the same error", "resolved_in_spec_version": "v0.11"}
+    ],
+    "discipline_note": "Kept and narrated per this archive's 'never hide a found defect' rule; see docs/issue-history.md."
+  },
+  "next_steps_before_sealing": [
+    "Rebuild the W1-W6 verification grid against A_DAGGER_SPEC_v0.24_DRAFT.md's actual eleven-clause text (not v0.11's five clauses), including any additional cross-cutting rows the newer clauses' non-claim-line exemptions require.",
+    "Recruit an independent adjudicator who did not draft the SPEC's clauses, per SPEC §1's own admissibility rule.",
+    "Run the rebuilt grid to completion: fill all clause x criterion cells, all cross-cutting checks (X1-X7), and the adjudication-record table, with any AMBIGUOUS or FAIL cell corrected in the SPEC text and re-run before proceeding.",
+    "Complete written answers to clause-specific checks Y1-Y19 (SPEC §12.1).",
+    "Publish and hash a normative reference implementation, including a characterized estimator for J/Ĵ (SPEC §14.0).",
+    "Discharge the coverage-validation requirement for the bootstrap procedure, by either the analytic or the empirical-grid route, for every primitive (SPEC §5.2).",
+    "Only after the above: proceed to SPEC §12 sealing, then declare a first INSTANCE (ideally the canonical A†-REF1, SPEC §11.3), and only then run the first actual A† campaign against any system."
+  ],
+  "no_private_files": true,
+  "no_private_files_note": "No *_PRIVATE.json scoring oracle, no fixture set, and no candidate exist for A†-SPEC, because no campaign under it has been run."
+}
