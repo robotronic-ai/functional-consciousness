@@ -7,9 +7,10 @@ completed or drafted since: the Λ addressing-sufficiency theory and its empiric
 scaling/certification line for Γ (07), three independently-authored protocol extensions (10–12),
 and the strictly-behavioral access-capability specification A†-SPEC (13).
 
-**Update note (differential).** This revision adds only folder `13-a-dagger-spec-behavioral-protocol/`
-and this README entry for it. Folders 01–12 are unchanged from the previous edition of this
-archive and are not re-described below beyond their existing index rows.
+**Update note (differential).** This revision adds two folders: `14-four-family-closure-and-compression-limit/`
+and `15-causal-construct-validity-protocol/`, plus their README entries below. Folders 01–13 are
+unchanged from the previous edition of this archive and are not re-described below beyond their
+existing index rows.
 
 Each numbered folder is a **clean edition**, not a literal translation of the frozen internal
 record. Frozen, hashed protocol files are never retyped — translating a hashed document would
@@ -65,6 +66,8 @@ archive.
 | 11 | `11-rmt-prospective-physical-cut` | §17.6-adjacent prospective validation | Protocol and analysis engine complete and self-tested; **`NOT_EXECUTED_REAL_MODEL`** — no result yet from the manuscript's actual target model. |
 | 12 | `12-readout-relative-minimal-predictive` | Predictive realization theory | Theoretical derivation + exhaustive finite verification (13,538 cases, 0 failures). Stochastic/continuous extensions explicitly `OPEN`. No trained model involved. |
 | 13 | `13-a-dagger-spec-behavioral-protocol` | Independent instrument for a future H_org bridge test | Frozen, hashed, **`NOT SEALED`** spec (v0.24, 11 behavioral clauses). By design never references Γ/Δ/R/Λ/B/T/U/Addr, so it can eventually decircularize the organizational-necessity bridge test. **Never run against any system.** Its only adjudication instrument (the W1–W6 grid) is stale — built for an older 5-clause v0.11 draft, itself never adjudicated, and covers none of the 6 clauses added since. |
+| 14 | `14-four-family-closure-and-compression-limit` | H_CO⁺ localization argument; §18/Annexe A caution on c_O | Compression Limit Theorem: **proved**, self-contained. Four-family axis-completeness (Ψ=(𝒮,𝒢,𝒞,𝒪), no 5th/6th family): **reported from a separate conversational record, not independently re-verified with frozen artifacts in this edition**. Claim Ladder L0–L6: notation adapted from folder 15's executed witnesses; L3/L4 currently **not established / refuted** for the compact profile. |
+| 15 | `15-causal-construct-validity-protocol` | H_CO⁺, §17.6/17.7 (H_C†,I, PCI_T) | Organizational-closure repair chain (typed-binding → joint-synergy → static sufficiency): **executed**, exact witnesses and an exact conditional sufficiency theorem for static access consequences; temporal consequences explicitly open. Functional-access necessity bridge (Breadth/Temporal/Unity ⟹ Δ,R,Γ>0): **executed** on frozen fixtures, necessity only, not sufficiency. FCI-3 causal construct validity protocol: **frozen design, never executed against real architecture pairs.** Intervention-identification safeguards: adjudicator logic validated on synthetic cases only. |
 
 ## Reading this archive honestly
 
@@ -72,14 +75,23 @@ Three campaigns in this edition (10, 11, and the target-transformer sub-bundle o
 **designs and tooling that have not yet been run against a real trained model**, one empirical
 campaign (09) ran fully but returned a **negative screening result**, not a confirmation, and
 one specification (13) is frozen text with **no adjudication and no executed instance at all**.
+Folder 14 mixes one fully proved, self-contained theorem (the Compression Limit Theorem) with one
+narrative campaign summary explicitly flagged as **unverified in this archive edition** (the
+four-family axis-completeness argument) — readers should not treat the two as having the same
+evidentiary status. Folder 15 is the most execution-heavy of the new folders — its repair chain,
+necessity bridge, and identification-adjudicator validation are all run on frozen fixtures with
+real result files — but its centerpiece forward-looking protocol (FCI-3) is, like folders 10, 11,
+and 13, a frozen design that has **never been run against a real architecture pair**.
 This is stated plainly inside each folder and repeated here because it matters for how the whole
 archive should be read by a skeptical reviewer: this is not a claim that every listed campaign is
 a finished, executed result. Folders 01–06, 08, and most of 07 and 12 are closed, executed, and
 verified (several via candidate-fixed holdout). Folders 10 and 11, and the target-transformer half
 of 07, are validated instruments and preregistered protocols waiting on a real-model run. Folder
 13 is one level earlier still: a well-formedness self-check (W1–W6) has been designed but never
-completed even once, against any version of the spec. None of this is a gap being concealed — it
-is the honest, current state of each work stream.
+completed even once, against any version of the spec. Folder 14's axis-completeness document and
+folder 15's FCI-3 protocol sit in that same "not yet independently executed in this archive"
+category, each explicitly labeled as such. None of this is a gap being concealed — it is the
+honest, current state of each work stream.
 
 ## Suggested reading order
 
@@ -89,3 +101,5 @@ is the honest, current state of each work stream.
 4. `01`–`03` and `06` — the supporting factorization, gauge-transport, boundary-closure and transformer-measurement results.
 5. `10`–`12` — the three protocol extensions, all instrument-complete, not yet run on a real model.
 6. `13-a-dagger-spec-behavioral-protocol` — the future non-circular access instrument: frozen text only, not yet adjudicated or run.
+7. `14-four-family-closure-and-compression-limit` — why axis-completeness alone does not certify the compact profile: read the Compression Limit Theorem first, the axis-completeness narrative and Claim Ladder second.
+8. `15-causal-construct-validity-protocol` — the executed adversarial repair chain and necessity bridge behind folder 14's L3/L4 verdicts, followed by the identification safeguards and the not-yet-executed FCI-3 protocol that would advance L5.
